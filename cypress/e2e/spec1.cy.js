@@ -18,16 +18,16 @@ cy.contains("Login to your account").should('be.visible')
 
 
 //6. Enter correct email address and password
-cy.get('[data-qa="login-email"]').type('matteokirtadze43@gmail.com')
-cy.get('[data-qa="login-password"]').type("krit12345")
+cy.get('[data-qa="login-email"]').type('matteo2@gmail.com')
+cy.get('[data-qa="login-password"]').type("Matteo199822")
 
 //7. Click 'login' button
 cy.get('[data-qa="login-button"]').click()
 //8. Verify that 'Logged in as username' is visible
-
+cy.contains("Logged in as matteo2").should('be.visible')
 //9. Click 'Delete Account' button
 
-//10. Verify that 'ACCOUNT DELETED!' is visible
+// 10. Verify that 'ACCOUNT DELETED!' is visible
   })
 
 })
