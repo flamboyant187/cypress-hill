@@ -1,0 +1,19 @@
+{
+    "FirstName":"boy",
+    "LastName":"scout",
+    "Email":"boyscout@gmail.com",
+    "Telephone":568821555,
+    "Fax": 12333,
+    "Company":"ogtsunkalskisazogadoeba",
+    "Address 1": "gogi 1",
+    "Address 2": "gogi gogi 2",
+    "City":"Tbilisski",
+    "Country":"Georgia",
+    "RegionState":"Tbilisi",
+    "LoginName":"TsunkaliOG",
+    "Password":"OGtsunkali",
+    "PasswordConf":"OGtsunkali",
+    "Postcode":1233,
+    "wrongemail": "avoie@gmail.com"
+ }
+
