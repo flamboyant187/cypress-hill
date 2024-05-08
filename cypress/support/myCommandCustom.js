@@ -18,3 +18,10 @@ cy.get('.logo > img').click();
 cy.get('#customer_menu_top > :nth-child(1) > .top > .menu_text').click();
 cy.get('.side_account_list > :nth-child(10) > a').click();
 })
+
+Cypress.Commands.add("Login2", (Email,Pass) => {
+    cy.get('.rprof > p').click();
+    cy.get(':nth-child(5) > .imail').type(Email);
+    cy.get('.ipass').type(Pass);
+    cy.get('.avtorization > .input-shablon > .form-button').click();
+})
