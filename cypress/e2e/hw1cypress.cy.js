@@ -1,5 +1,5 @@
 
-describe("homework", () => {
+describe("homework12", () => {
 beforeEach(()=>{
     cy.visit("https://automationteststore.com/");
        cy.login('ComptonG','compton187')
